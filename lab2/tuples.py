@@ -7,7 +7,7 @@ print(len(fruits))
 
 
 fruits = ("apple", "banana", "cherry")
-print(len(fruits))
+print(fruits[-1])
 
 
 fruits = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
