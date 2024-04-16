@@ -1,9 +1,9 @@
-import re 
-s = str(input())
-def ex1(text):
-    x = re.search("^a.*b", text)
+import re
+s = input() 
+def rx1(text):
+    x = re.search("a*b", text)
     if x:
         return True
     else:
         return False
-print(ex1(s))
+print(rx1(s))
